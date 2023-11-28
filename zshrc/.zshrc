@@ -116,6 +116,13 @@ alias git-woicip="git config --global user.name \"woicip\" && git config --globa
 alias git-cipta-ragda="git config --global user.name \"cipta.ragda\" && git config --global user.email \"cipta.ragda@gmail.com\""
 alias woicipvps="ssh -i ~/.ssh/mac_woicip woicip@103.187.146.179"
 alias jualdesignvps="ssh -i ~/.ssh/jualdesign_rsa jualdesign@103.13.207.114"
+alias disnakervps="ssh -i ~/.ssh/disnaker_rsa disnaker@103.147.245.30"
+alias localvps="ssh -i ~/.ssh/local_ubuntu_rsa ubuntu@192.168.1.102"
+alias rabfirevps="ssh -i ~/.ssh/rabfire_mac_rsa cipta@103.174.114.235"
+alias speedtest="~/speedtest-cli/speedtest"
 
 # Starship
 eval "$(starship init zsh)"
+
+# PSQL
+alias psql="psql15"
